@@ -90,6 +90,7 @@ html {
     margin-top: 15px;
     border: none;
     text-align: center;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -208,7 +209,7 @@ html {
     margin-top: 46px;
     padding-top: 50%;
     background-color: grey;
-    background: url('/TH_1/f8_w3_band/assets/img/slider1.jpg') top center / cover no-repeat;
+    background: url('../img/slider1.jpg') top center / cover no-repeat;
     position: relative;
 }
 
@@ -231,6 +232,7 @@ html {
 #slider .text-description {
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content {
@@ -388,6 +390,10 @@ html {
     padding: 10px;
     border: 1px solid #ccc;
     width: 100%
+}
+
+.contact-submit-btn {
+    font-size: 16px;
 }
 
 .map-section img {
